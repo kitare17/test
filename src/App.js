@@ -1,25 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Con1 from "./component/Con1";
+import Con2 from "./component/Con2";
+import Con3 from "./component-style/Con3";
+import Con4 from "./component-style/Con4";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Con1></Con1>
+            <Con2></Con2>
+            <Con3></Con3>
+            <Con4></Con4>
+        </div>
+    );
 }
 
 export default App;
